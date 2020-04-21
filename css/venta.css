@@ -1,0 +1,14 @@
+/* Posiciono el footer al final */
+
+/* html {
+  min-height: 100%;
+  position: relative;
+} */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+}

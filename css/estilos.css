@@ -1,0 +1,234 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,700");
+/*------ Variables */
+:root {
+  /*------ Colores */
+  --green-color: rgb(41, 109, 121);
+  --black-color: #313337;
+  --white-color: white;
+  /*------ Tipografía */
+  --normal: 15px;
+  /*------ Espaciado */
+  --space: 10px;
+  --space-2: 20px;
+  /*------ Box shadow*/
+  --box: 0px 0 2px 1px #e6e5e9;
+}
+
+/* -------------------------------------------  */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+  color: var(--black-color);
+}
+
+p,
+label {
+  font-size: var(--normal);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: var(--space);
+  min-height: 100px;
+  background-color: var(--green-color);
+  text-transform: uppercase;
+}
+
+nav a {
+  text-decoration: none;
+  color: var(--white-color);
+  font-size: var(--normal);
+  letter-spacing: 3px;
+  padding: 5px;
+  transition: 0.5s all;
+}
+
+nav a:hover {
+  color: var(--black-color);
+  background-color: var(--white-color);
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding-right: 30px;
+  list-style: none;
+}
+
+.nav-index {
+  padding: 0 50px;
+}
+
+.nav-img {
+  width: 150px;
+}
+
+hr {
+  opacity: 0.2;
+}
+
+/* ------------------------------------------- MAIN SECTION */
+
+.main_section {
+  text-align: center;
+  padding: 5%;
+  font-size: 300%;
+}
+
+/* ---------------------------------------------  PRODUCTOS */
+
+.products {
+  background-image: url("../images/curve.png");
+  padding: 15%;
+  background-position: center top;
+  background-repeat: no-repeat;
+  display: flex;
+  height: 95px;
+  background-size: cover;
+  justify-content: center;
+}
+
+.product {
+  padding: 20px;
+  margin-top: -226px;
+}
+
+.image-product {
+  text-align: center;
+}
+
+.image-product img {
+  width: 300px;
+}
+
+.content {
+  padding: 20px;
+  background: var(--white-color);
+  border-radius: 3px;
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+
+.main_btn {
+  padding: var(--space);
+  background-color: var(--green-color);
+  width: 100%;
+  border: 0px;
+  border-radius: 2px;
+  cursor: pointer;
+  color: var(--white-color);
+}
+.main_btn:hover {
+  background-color: #63a426;
+}
+
+/*----------------------------------------------- BENEFICIOS */
+.beneficios {
+  padding: 10%;
+  display: flex;
+}
+
+.beneficio {
+  text-align: center;
+  padding: 20px;
+}
+
+.beneficio i {
+  font-size: 150px;
+  color: tomato;
+}
+
+
+/*--------------------------------------------------- MENTIOS */
+.mentions {
+  display: flex;
+  padding: 5%;
+}
+.mention img {
+  width: 100%;
+}
+h2.mention_title {
+  text-align: center;
+}
+.mention {
+  padding: var(--space);
+}
+.content_mention {
+  box-shadow: 0px 0 2px 1px #e6e5e9;
+}
+.mention .text {
+  padding: var(--space);
+}
+/* ------------------------------------------- VENTA */
+
+.modulo_pago {
+  background-color: var(--white-color);
+  box-shadow: var(--box);
+  padding: var(--space-2);
+}
+
+.modulo_pago_images {
+  max-width: 150px;
+  text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+.data {
+  margin-top: var(--space);
+  width: 100%;
+  padding: 5px;
+  border-radius: 2px;
+  border: 1px solid var(--black-color);
+  box-sizing: border-box;
+}
+
+.modulo_pago .main_btn {
+  margin-top: 10px;
+}
+
+.venta_container {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.venta_container_img img{
+  width: 400px;
+}
+
+/* ------------------------------------------- FAQS */
+.faqs__container {
+  text-align: center;
+}
+
+.sec-title h3 {
+  display: inline-block;
+  border-bottom: 1px solid red;
+  width: 35%;
+}
+
+/* ------------------------------------------- FOOTER */
+footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: var(--normal);
+  background-color: var(--black-color);
+  padding: var(--space);
+  color: var(--white-color);
+  height: 100px;
+}
+.contact a {
+  color: var(--green-color);
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: var(--white-color);
+}
